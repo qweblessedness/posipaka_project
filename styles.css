@@ -1,0 +1,132 @@
+html,body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+    background-color: black;
+    color:#F4D03F;
+}
+header{
+    position:fixed;
+    background-color:black;
+    width:100%;
+    display:inline-flex;
+    top:0;
+    left:0;
+    justify-content: space-between;
+    align-items:center;
+    z-index:100;
+}
+
+header img{
+    height:100%;
+    width:10%;
+    float:left;
+}
+
+header ul{
+    display:flex;
+    flex-direction:row;
+    gap:10px;
+    list-style:none;
+}
+
+h2{
+    text-align:center;
+    font-size:3rem;
+}
+
+.navbar{
+    margin-right:1%;
+}
+
+a{
+    color:#F4D03F;
+    font-family:Helvetica;
+    font-size:22px;
+    opacity:0.9;
+    margin:auto;
+}
+
+.minions{
+    height:700px;
+    background-color: black;
+    background-image: url(images/despicable-me-minions-wallpaper-wallpaper-minion-pictures-despicable-bergerak-agnes-hd-banana-minions-despicable-me-minions-cartoon-hd-wallpaper-for-mobile-1973894211.jpg);
+    background-size: cover;
+    width:100%;
+}
+
+.minion_box{
+    width:300px;
+}
+
+.minion_box img{
+    width:100%;
+    height:300px;
+}
+
+.minion_name a{
+    text-decoration:none;
+    font-size:2rem;
+}
+
+.minion_name a:hover{
+    color:black;
+    background-color:gray;
+}
+
+.minion_name h4{
+    text-align:center;
+    margin-top:0;
+}
+
+.product_container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    gap:0.4rem;
+}
+
+.team_container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+
+.team_box{
+    width:400px;
+}
+
+.team_box img{
+    height:500px;
+    width:100%;
+}
+
+.team_name h4{
+    text-align:center;
+    font-size:2rem;
+    margin:0;
+}
+
+.contact_info{
+}
+
+.contact_info h2,h4,p{
+    font-weight:lighter;
+    margin:1%;
+    text-align: center;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size:1.5rem;
+}
+
+.contact_box{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    width:100%;
+}
+
+.contact_box img{
+    width:100%;
+    height:500px;
+}
